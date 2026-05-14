@@ -32,6 +32,8 @@ Create a .env file to store your credentials:
 
 - `MONGODB_URI=mongodb+srv://<username>:<password>@clusterName.xxxxxxx.mongodb.net/doctor-appointment`
 
+**Stripe:** Get your own secret key from the [Stripe Dashboard](https://dashboard.stripe.com/apikeys). If you used `setup-and-run.bat`, open `backend/.env` afterward and replace `STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY_HERE` with `STRIPE_SECRET_KEY=sk_test_...` (or your live key in production). If you create `backend/.env` by hand, include that line yourself.
+
 ## 3️⃣ Download npm packages and Vite tool:
 
 - For the backend side follow these steps: ⬇️
